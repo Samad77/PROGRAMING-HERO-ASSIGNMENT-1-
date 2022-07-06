@@ -46,15 +46,19 @@
     margin-left: 45%;
     margin-top: 30px;
 }
+.donate{
+    margin-left: 50px;
+}
 .sec2{
     margin-top: 100px;
 }
 .sec2 h1{
-    font-size: 35px;
+    font-size: 30px;
+    margin-top: 10px;
     text-align: center;
 }
 .sec2 p{
-    font-size: 13px;
+    font-size: 12px;
     color: rgb(97, 96, 96);
     text-align: center;
 }
@@ -76,3 +80,209 @@
     margin-top: 30px;
 }
 
+.value-200{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 30px;
+    border: 2px solid orangered;
+    border-radius: 7px;
+
+}
+.input-btn{
+    margin-left: 35%;
+    margin-top: 50px;
+}
+.input-fill input{
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 500px;
+    text-align: center;
+    
+}
+.btn2{
+    background-color: orangered;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    margin-left: 19.4%;
+    margin-top: 30px;
+    margin-bottom: 100px;
+  
+}
+.donate-plan h1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.donate-plan p{
+    font-size: 12px;
+    color: rgb(106, 105, 105);
+    text-align: center;
+}
+.planing{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(251, 219, 225);
+    border-radius: 10px;
+    margin-left: 60px;
+
+}
+.planing img{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.planing h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 20px;
+}
+.planing p{
+    color: gray;
+    font-size: 13px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.planing:nth-child(2){
+    background-color: rgb(214, 246, 246);
+}
+.planing:nth-child(3){
+    background-color: rgb(248, 248, 183);
+}
+.plan-detail{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    
+}
+.donate-content{
+    width: 500px;
+   
+}
+.donate-content h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    text-align: left;
+}
+.donate-content p{
+    color: gray;
+    font-size: 17px;
+    text-align: left;
+    margin-top: 10px;
+
+}
+.btn3{
+    background-color: orangered;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    margin-left: ;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+.picture img{
+    width: 500px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+.donate-tasrif{
+    display: flex;
+    justify-content: center;
+   
+}
+.picture1 img{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: -80px;
+}
+.donate-content1{
+    width: 500px;
+}
+.donate-content1 h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    text-align: left;
+}
+.donate-content1 p{
+    color: gray;
+    font-size: 17px;
+    text-align: left;
+    margin-top: 10px;
+
+}
+.donate-tawhid{
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+}
+.donate-content1{
+    margin-left: 100px;
+}
+.updates h1{
+    font-size: 30px;
+    text-align: center;
+}
+.updates p{
+    color: rgb(81, 81, 81);
+    font-size: 13px;
+    text-align: center;
+}
+
+.email-box{
+    width: 500px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 248, 183);
+    margin-left: 34%;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.input-2 input{
+    padding-top: 7px;
+    padding: 7px;
+    border: none;
+    background-color: rgb(183, 182, 182);
+    outline: none;
+    color: black;
+    
+}
+.btn5 button{
+    background-color: orangered;
+    border: none;
+    padding: 7px 20px;
+    cursor: pointer;
+}
+footer{
+    background-color: black;
+    height: 20vh;
+    margin: auto;
+    text-align: center;
+   
+}
+footer h1{
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    color: orangered;
+    padding-top: 50px;
+}
+footer p{
+    color: gray;
+    font-size: 10px;
+}
