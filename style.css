@@ -7,7 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 .main-content{
-    background:url(images/donation5.jpg);
+    background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/donation5.jpg);
     height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -45,6 +45,12 @@
     font-size: 17px;
     margin-left: 45%;
     margin-top: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.btn1:hover{
+    box-shadow: 0px 0px 8px orangered;
+
 }
 .donate{
     margin-left: 50px;
@@ -116,7 +122,12 @@
     margin-left: 19.4%;
     margin-top: 30px;
     margin-bottom: 100px;
+    transition: 0.5s;
   
+}
+.btn2:hover{
+    box-shadow: 0px 0px 8px orangered;
+    cursor: pointer;
 }
 .donate-plan h1{
     font-size: 30px;
@@ -134,6 +145,7 @@
     background-color: rgb(251, 219, 225);
     border-radius: 10px;
     margin-left: 60px;
+    box-shadow: 0px 0px 8px #333;
 
 }
 .planing img{
@@ -193,11 +205,18 @@
     margin-top: 30px;
     margin-bottom: 100px;
     cursor: pointer;
+    transition: 0.5s;
+}
+.btn3:hover{
+    box-shadow: 0px 0px 8px orangered;
+    cursor: pointer;
 }
 .picture img{
     width: 500px;
     margin-left: 100px;
     border-radius: 10px;
+    box-shadow: 0px 0px 8px #333;
+
 }
 .donate-tasrif{
     display: flex;
@@ -209,6 +228,8 @@
     height: 300px;
     border-radius: 10px;
     margin-left: -80px;
+    box-shadow: 0px 0px 8px #333;
+
 }
 .donate-content1{
     width: 500px;
@@ -267,6 +288,11 @@
     background-color: orangered;
     border: none;
     padding: 7px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn5:hover{
+    box-shadow: 0px 0px 8px orangered;
     cursor: pointer;
 }
 footer{
